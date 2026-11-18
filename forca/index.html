@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forca da Arquitetura Computacional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="caixa">
+        <h1>Forca da Arquitetura Computacional</h1>
+        <p class="sub">Leia a pista e escolha a palavra certa entre as 5 alternativas. Você pode errar 3 vezes.</p>
+
+        <div id="div_contador" class="contador"></div>
+
+        <pre id="div_forca" class="forca"></pre>
+
+        <div id="div_pista" class="pista"></div>
+        <div id="div_palavra" class="palavra"></div>
+        <div id="div_erradas" class="erradas"></div>
+
+        <div id="div_opcoes" class="opcoes"></div>
+
+        <div id="div_result" class="resultado"></div>
+
+        <div class="botoes">
+            <button id="btn_proxima" onclick="proxima()" style="display: none;">Próxima palavra</button>
+            <button id="btn_reiniciar" onclick="reiniciar()">Reiniciar</button>
+        </div>
+    </div>
+
+</body>
+</html>
+<script src="script.js"></script>
